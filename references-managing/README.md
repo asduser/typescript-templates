@@ -2,11 +2,15 @@
 
 Example which explains the methodology of references grouping using TypeScript language.
 
+![project architecture](http://asduser.github.io/images/post/ts-modules-project-structure2.png)
+
 It is a common thing when you have a lot of independent modules, classes and need to manage all of them.
 
 ### How to use
 
 **I**. Just open *index.html* file and press F12 to open developer console.
+
+![project architecture](http://asduser.github.io/images/post/ts-modules-console-output.png)
 
 **II**. To create a new build use an appropriate command:
 
