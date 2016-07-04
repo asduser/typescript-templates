@@ -10,7 +10,7 @@ Flexible and scalable TypeScript module to catch error messages from http-respon
 
 1. Decrease number of the common issues in development mode.
 2. Customize handlers as you wish.
-3. Separate logical code blocks into the positive and negative scenarios.
+3. Separate logical code blocks into a positive and negative scenarios.
 4. Save your time for debugging.
 
 ## How to use
