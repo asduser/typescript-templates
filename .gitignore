@@ -1,0 +1,15 @@
+/dist
+/tmp
+/out-tsc
+node_modules
+/.idea
+.project
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+npm-debug.log
+testem.log
+/typings
+e2e/*.js
+e2e/*.map
