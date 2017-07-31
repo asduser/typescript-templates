@@ -9,11 +9,15 @@ import { appRouting } from "./routing/app";
 
 /* Pages */
 import {HasRolePage} from "./pages/has-role/has-role";
+import {WelcomePage} from "./pages/system/welcome/welcome";
+import {NotFoundPage} from "./pages/system/not-found/not-found";
 
 @NgModule({
   declarations: [
     AppComponent,
-    HasRolePage
+    HasRolePage,
+    WelcomePage,
+    NotFoundPage
   ],
   imports: [
     BrowserModule,
