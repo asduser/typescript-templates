@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {PageItem} from "../../../models/index";
 
 @Component({
   selector: 'welcome-page',
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
 
 export class WelcomePage {
 
-  public items: RouteItem[] = [];
+  public items: PageItem[] = [];
 
   constructor(){
     this.items = [
@@ -15,9 +16,4 @@ export class WelcomePage {
     ];
   }
 
-}
-
-type RouteItem = {
-  route: string,
-  title: string
 }

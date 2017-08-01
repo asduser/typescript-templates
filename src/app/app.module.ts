@@ -8,14 +8,18 @@ import { CustomElementsModule } from "../core/custom.elements.module";
 import { appRouting } from "./routing/app";
 
 /* Pages */
-import {HasRolePage} from "./pages/has-role/has-role";
+import {DirectivesPage} from "./pages/directives/directives.page";
+import {HasRolePage} from "./pages/directives/has-role/has-role";
+
 import {WelcomePage} from "./pages/system/welcome/welcome";
 import {NotFoundPage} from "./pages/system/not-found/not-found";
+import {AppComponentsModule} from "./components/app.components.module";
 
 @NgModule({
   declarations: [
     AppComponent,
     HasRolePage,
+    DirectivesPage,
     WelcomePage,
     NotFoundPage
   ],
@@ -24,7 +28,8 @@ import {NotFoundPage} from "./pages/system/not-found/not-found";
     FormsModule,
     HttpModule,
     appRouting,
-    CustomElementsModule
+    CustomElementsModule,
+    AppComponentsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
