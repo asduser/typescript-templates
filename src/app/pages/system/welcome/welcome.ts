@@ -12,7 +12,7 @@ export class WelcomePage {
 
   constructor(){
     this.items = [
-      { route: '/directives', title: 'hasRole directive' }
+      { route: '/directives', title: 'directives' }
     ];
   }
 
